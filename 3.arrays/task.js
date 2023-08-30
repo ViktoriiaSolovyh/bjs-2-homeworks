@@ -2,7 +2,6 @@ function compareArrays(arr1, arr2) {
   if (arr1.length != arr2.length) {
     return false;
   }
-
   return arr1.every((currentValue, index) => currentValue == arr2[index]);
 }
 
